@@ -88,6 +88,10 @@ input {
 	border-radius: 2px;
 }
 
+input.search {
+	padding-right: 37px;
+}
+
 input:focus::-webkit-input-placeholder {
 	color: transparent;
 }
