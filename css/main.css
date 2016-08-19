@@ -457,7 +457,7 @@ aside.main {
    border-radius: 0;
    background: transparent;
    background-repeat: no-repeat;
-   background-image: url("../img/main_sprite.png");
+   background-image: url("../images/main_sprite.png");
    background-position: -93px 0;
    outline: none;
    line-height: 0px;
@@ -544,7 +544,7 @@ footer.main .socials a {
 	height: 31px;
 	display: inline-block;
 	background-repeat: no-repeat;
-	background-image: url("../img/main_sprite.png");
+	background-image: url("../images/main_sprite.png");
 }
 
 footer.main .socials a:nth-child(1) {
