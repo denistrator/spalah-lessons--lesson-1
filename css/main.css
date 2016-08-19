@@ -336,21 +336,23 @@ ul.articles_list {
 
 ul.articles_list li {
 	margin: 10px 0;
+	position: relative;
+	padding-left: 37px;
 }
 
 ul.articles_list li:before {
 	content: '';
+	position: absolute;
+	left: 0;
+	top: 12px;
 	width: 17px;
 	height: 1px;
-	position: relative;
-	bottom: 5px;
 	background-color: #808080;
 	display: inline-block;
 } 
 
 ul.articles_list li a {
 	font-size: 0.75rem;
-	margin-left: 15px;
 }
 
 .main_content hr {
