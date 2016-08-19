@@ -315,8 +315,10 @@ nav.main ul li a {
 .main_breadcrumbs a:last-child:after{ display: none }
 
 .main_content {
-	width: 71%;
+	width: 100%;
 	float: left;
+	margin-right: -230px;
+	padding-right: 280px; /*230 + 50(padding)*/
 }
 
 .main_content h1 {
@@ -373,8 +375,7 @@ ul.articles_list li a {
 }
 
 aside.main {
-	width: 23.5%;
-	margin-left: 5.5%;
+	width: 230px;
 	float: right;
 }
 
