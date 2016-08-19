@@ -222,6 +222,12 @@ html {
 	box-sizing: inherit;
 }
 
+.main_wrap {
+	max-width: 1920px;
+	min-width: 980px;
+    margin: 0 auto;
+}
+
 .container {
 	width: 980px;
 	margin: 0 auto;
@@ -312,10 +318,11 @@ nav.main ul li a {
 	display: inline-block;
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAIUlEQVQIW2NkYGBwYGBgOIBEMzAyQACKBEwQRQKnSgwzAcxzCUYJcxtvAAAAAElFTkSuQmCC');
 }
-.main_breadcrumbs a:last-child:after{ display: none }
+.main_breadcrumbs a:last-child:after { display: none }
 
-.main_content {
+.wrap_main_content {
 	width: 100%;
+	min-width: 610px; /*380 + 230(padding)*/
 	float: left;
 	margin-right: -230px;
 	padding-right: 280px; /*230 + 50(padding)*/
